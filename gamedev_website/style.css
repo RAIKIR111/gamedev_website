@@ -1,0 +1,963 @@
+html {
+    background-image: url(img/Layer_6.png);
+    background-repeat: no-repeat;
+    background-color: #17202A;
+    background-blend-mode: multiply;
+    background-size: 100%;
+}
+
+main {
+    margin-top: 10vw;
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.font__family {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.first__letter::first-letter {
+    color: rgb(255, 208, 0);
+}
+
+h1 {
+    color: white;
+    font-size: 13vw;
+    letter-spacing: -1vw;
+    line-height: 0px;
+    margin-bottom: 6vw;
+}
+
+.header__title {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-left: 9%;
+    height: 100%;
+}
+
+.header__title_1 {
+    color: white;
+    line-height: 1.35em;
+    margin-left: 1vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+.header__title a {
+    color: rgb(255, 208, 0);
+}
+
+.header__title a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.main__info {
+    background-image: url(img/Layer_5.png);
+    background-repeat: no-repeat;
+    padding-bottom: 32.8vw;
+    background-size: 100%;
+}
+
+.main__info h2 {
+    color: white;
+    padding-left: 3vw;
+    font-size: 4vw;
+    letter-spacing: -0.2vw;
+    line-height: 3.5vw;
+    padding-top: 4vw;
+}
+
+.navigation__section1 {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.navigation__section1 ul {
+    display: flex;
+    list-style-type: none;
+} 
+
+.navigation__section1__li {
+    margin-left: 3vw;
+}
+
+.navigation__section1__li a {
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+
+.navigation__section1__li a:hover {
+    color: yellow;
+}
+
+.navigation__section1 ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+.about_sublime {
+    margin-top: 0vw;
+    padding-top: 1.5vw;
+}
+
+.about_sublime_1_h2 {
+    color: gray;
+    font-size: 1.5vw;
+    padding-left: 9vw; 
+    padding-top: 1.3vw;
+    padding-right: 10vw;
+    line-height: 3vw;
+}
+
+.full_about {
+    padding-left: 0.5vw;
+    font-size: 2.6vw;
+    font-weight: 100;
+}
+
+.about_sublime_1 {
+    display: flex;
+    height: 20vw;
+}
+
+.colored__text1 {
+    color: black;
+}
+
+.s_sublime{
+    color: rgb(255, 208, 0);
+}
+
+.a_about {
+    font-size: 3.5vw;
+    font-weight: 550;
+}
+
+.full_sublime {
+    font-size: 5.5vw;
+}
+
+.ime_sublime {
+    border-bottom: 2px solid black;
+}
+
+.div_1 {
+    border-right: 1px solid gray;
+    margin-top: 2vw;
+    height: 60%;
+}
+
+.div_2 {
+    padding-top: 1.3vw;
+    padding-right: 2.5vw;
+    padding-left: 1.75vw;
+    font-size: 0.98vw;
+}
+
+.div_2 p:nth-child(1) {
+    font-style: italic;
+}
+
+.about_sublime_2 {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about_sublime_2 div {
+    background: url(img/Layer_18n.png);
+    background-position: 49% 0;
+    background-size: 18%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 5vw;
+    padding-top: 2vw;
+}
+
+.about_sublime_2 div:nth-child(1) {
+    margin-left: 0;
+}
+
+.about_sublime_2 div p {
+    font-size: 0.8vw;
+}
+
+.about_sublime_2 div h4 {
+    font-weight: 100;
+    font-size: 1.4vw;
+}
+
+.featured_projects {
+    padding-top: 5vw;
+}
+
+.featured_projects h3 {
+    font-size: 2vw;
+    padding-left: 6vw;
+}
+
+.featured_projects h3::first-letter {
+    font-size: 3.3vw;
+    color: rgb(255, 208, 0);
+    letter-spacing: -3px;
+}
+
+.p_projects {
+    font-size: 3.3vw;
+    letter-spacing: -3px;
+}
+
+.d_projects_projects {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.3vw;
+}
+
+.navigation__section2 {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.navigation__section2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation__section2__li:nth-child(1) {
+    margin-left: 3vw;
+}
+
+.navigation__section2__li:nth-child(2) {
+    margin-left: 3.1vw;
+}
+
+.navigation__section2__li {
+    margin-left: 1.5vw;
+}
+
+.navigation__section2__li a {
+    text-decoration: none;
+    font-size: 1.1vw;
+    color: black;
+    font-size: 0.8vw;
+    font-weight: bold;
+    letter-spacing: -0.07vw;
+}
+
+.navigation__section2 ul li a:hover {
+    border-bottom: 1.5px solid yellow;
+}
+
+.game_images {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.strategic_process {
+    padding-top: 3vw;
+    padding-bottom: 4vw;
+}
+
+.strategic_process h3 {
+    font-size: 2vw;
+    padding-left: 6vw;
+}
+
+.strategic_process h3::first-letter {
+    font-size: 3.3vw;
+    color: rgb(255, 208, 0);
+    letter-spacing: -3px;
+}
+
+.p_process {
+    font-size: 3.3vw;
+    letter-spacing: -3px;
+}
+
+.ic_process_process {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.45vw;
+}
+
+.strategic_process_p1 {
+    padding-left: 6vw;
+    padding-right: 6vw;
+    font-style: italic;
+    font-size: 0.99vw;
+}
+
+.strategic_process_p2 {
+    padding-left: 6vw;
+    padding-right: 6vw;
+    font-size: 0.99vw;
+}
+
+.our_process {
+    display: flex;
+    margin-top: 3vw;
+    height: 18.7vw;
+}
+
+.our_process_img {
+    background: url(img/Layer_22.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 100%;
+}
+
+.our_process_text {
+    font-size: 0.95vw;
+    text-align: left;
+    width: 100%;
+}
+
+.div_inside {
+    width: 80%;
+    padding-left: 2vw;
+}
+
+.div_inside_1 {
+    width: 70%;
+    padding-left: 10.5vw;
+}
+
+.our_process_text h3 {
+    margin-right: 10vw;  
+}
+
+.our_process_text p:nth-child(2) {
+    font-style: italic;
+}
+
+.our_process h3::first-letter {
+    color: black;
+}
+
+.p2_process {
+    font-size: 3.3vw;
+    letter-spacing: -0.4vw;
+}
+
+.method {
+    display: flex;
+    height: 18.7vw;
+}
+
+.method h3::first-letter {
+    color: black;
+}
+
+.method_img {
+    background: url(img/Layer_23.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    width: 100%;
+}
+
+.method_text {
+    font-size: 0.95vw;
+    text-align: left;
+    width: 100%;
+}
+
+.method_text p:nth-child(2) {
+    font-style: italic;
+}
+
+.outcome {
+    display: flex;
+    height: 18.7vw;
+}
+
+.outcome_img {
+    background: url(img/Layer_24.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 100%;
+}
+
+.outcome_text {
+    font-size: 0.95vw;
+    text-align: left;
+    width: 100%;
+}
+
+.outcome_text p:nth-child(2) {
+    font-style: italic;
+}
+
+.outcome_text h3 {
+    margin-right: 10vw;  
+}
+
+.outcome h3::first-letter {
+    color: black;
+}
+
+.services_provided {
+    background-image: url(img/Layer_26.png);
+    background-repeat: no-repeat;
+    background-color: rgb(77, 77, 77);
+    background-blend-mode: multiply;
+    background-size: 100%;
+    padding-top: 2vw;
+    padding-bottom: 3.9vw;
+    color: white;
+}
+
+.services_provided h3 {
+    font-size: 2vw;
+    padding-left: 6vw;
+    position: absolute;
+}
+    
+.services_provided h3::first-letter {
+    font-size: 3.3vw;
+    letter-spacing: -3px;
+}
+
+.sp_main_div {
+    display: flex;
+    padding-left: 35vw;
+    margin-top: 5.5vw;
+    padding-bottom: 1.7vw;
+}
+
+.p_provided {
+    font-size: 3.3vw;
+    letter-spacing: -3px;
+}
+
+.services_provided_provided {
+    border-bottom: 1px solid white;
+    padding-bottom: 0.3vw;
+}
+
+.sp_div1 {
+    width: 40%;
+    font-size: 0.8vw;
+}
+
+.sp_div1 div h4 {
+    font-size: 1.3vw;
+}
+
+.sp_div2 {
+    width: 48%;
+    font-size: 0.8vw;
+}
+
+.sp_div2 div h4 {
+    font-size: 1.3vw;
+}
+
+.sp_game_development {
+    margin-left: 6vw;
+}
+
+.sp_game_design {
+    margin-left: 6vw;
+}
+
+.our_team {
+    height: 40vw;
+}
+
+.our_team h3 {
+    font-size: 2vw;
+    padding-left: 6vw;
+    position: absolute;
+    padding-top: 5vw;
+}
+
+.our_team h3::first-letter {
+    font-size: 3.3vw;
+    letter-spacing: -3px;
+}
+
+.t_team {
+    font-size: 3.3vw;
+    letter-spacing: -3px;
+}
+
+.team_team {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.3vw;
+}
+
+.our_team_text {
+    padding-left: 30%;
+    padding-top: 5.5vw;
+    padding-right: 10%;
+    font-size: 0.95vw;
+}
+
+.our_team_text p:nth-child(1) {
+    font-style: italic;
+}
+
+.people_images {
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+}
+
+.people_images figure {
+    margin-left: -1.3vw;
+    text-align: center;
+    font-weight: bold;
+    width: 20%;
+}
+
+.people_images figure:nth-child(1) {
+    margin-left: 0;
+}
+
+.people_info {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 0.95vw;
+}
+
+.testimonials {
+    background-color: black;
+    color: white;
+    height: 27.5vw;
+}
+
+.testimonials h3 {
+    font-size: 2vw;
+    padding-left: 6vw;
+    position: absolute;
+    padding-top: 2vw;
+}
+
+.testimonials h3::first-letter {
+    font-size: 3.3vw;
+    letter-spacing: -3px;
+}
+
+.onials_testimonials {
+    border-bottom: 1px solid white;
+    padding-bottom: 0.3vw;
+}
+
+.testimonials_text {
+    padding-top: 11vw;
+    padding-left: 10vw;
+    font-size: 0.95vw;
+    width: 50%;
+}
+
+.testimonials_text:nth-child(1) {
+    font-style: italic;
+}
+
+.main_testimonials {
+    display: flex;
+}
+
+.main_testimonials figure p img{
+    border: 2px solid rgb(255, 208, 0);
+    border-radius: 100%;
+}
+
+.main_testimonials figure {
+    padding-top: 5.5vw;
+    padding-left: 3vw;
+}
+
+.blogs h3 {
+    font-size: 2vw;
+    padding-left: 6vw;
+    position: absolute;
+    padding-top: 2vw;
+}
+
+.blogs_h3 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.3vw;
+}
+
+.blogs h3::first-letter {
+    font-size: 3.3vw;
+    letter-spacing: -3px;
+}
+
+.navigation__section3 {
+    width: 20%;
+    display: block;
+    padding-top: 10vw;
+    margin-left: 5vw;
+}
+
+.navigation__section3 ul {
+    list-style-type: none;
+}
+
+.navigation__section3 ul li {
+    margin-top: 1.7vw;
+}
+
+.navigation__section3 ul li:nth-child(1) {
+    margin-top: 0;
+}
+
+.navigation__section3 ul li a {
+    font-size: 1.15vw;
+    color: black;
+}
+
+.blogs_sections {
+    display: flex;
+    padding-top: 1.5vw;
+    padding-left: 7vw;
+}
+
+.main_blogs {
+    display: flex;
+}
+
+.blogs_sections section {
+    margin-right: 1.4vw;
+}
+
+.blogs_sections section:nth-child(1) {
+    margin-right: 0;
+}
+
+.blogs_sections section figure p img {
+    width: 100%;
+}
+
+.blogs_sections section figure figcaption {
+    font-style: italic;
+    font-size: 0.8vw;
+}
+
+.blogs_span1 {
+    font-size: 1.15vw;
+    color: rgb(255, 208, 0);
+}
+
+.blogs_span2 {
+    font-weight: bold;
+    font-size: 0.89vw;
+    line-height: 2.5vw;
+}
+
+.contact_us {
+    margin-top: 7vw;
+    background-color: rgb(23, 69, 168);
+    color: white;
+}
+
+.contact_us_main h3 {
+    font-size: 2vw;
+    padding-top: 3.5vw;
+    text-align: left;
+    padding-left: 1.4vw;
+}
+
+.contact_us_main h3::first-letter {
+    font-size: 3.3vw;
+    letter-spacing: -3px;
+}
+
+.u_us {
+    font-size: 3.3vw;
+    letter-spacing: -3px;
+}
+
+.contact_us_contact_us {
+    border-bottom: 1px solid white;
+    padding-bottom: 0.15vw;
+}
+
+.contact_us_main {
+    background-image: url(img/Layer_52n.png);
+    background-repeat: no-repeat;
+    height: 48vw;
+    background-size: 36vw 100%;
+    padding-left: 49%;
+}
+
+.sublime_circle {
+    right: 71%;
+    margin-top: 13.7%;
+    position: absolute;
+    font-weight: bold;
+    border: 1px solid rgb(255, 208, 0);
+    background-color: black;
+    border-radius: 100%;
+    width: 3.8vw;
+    height: 3.8vw;
+    text-align: center;
+    letter-spacing: -0.07vw;
+}
+
+.sublime_circle p {
+    padding-top: 0.1vw;
+}
+
+.survey__form {
+    width: 68%;
+    margin-top: -0.8vw;
+}
+
+.survey__form_1 {
+    display: flex;
+    width: 100%;
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    outline: none;
+}
+
+button {
+    outline: none;
+}
+
+/* name label */
+
+#name-label_div {
+    border: 1px solid white;
+    height: 2vw;
+}
+
+#name-label {
+    background-color: rgb(23, 69, 168);
+    border: 0;
+    width: 98%;
+    padding-top: 0.5vw;
+    padding-left: 0.3vw;
+}
+
+input[type="name"]::placeholder {
+    color: white;
+}
+
+input[type="name"] {
+    color: white;
+}
+
+/* mobile label */
+
+#mobile-label_div {
+    border: 1px solid white;
+    height: 2vw;
+    width: 37%;
+}
+
+#mobile-label {
+    background-color: rgb(23, 69, 168);
+    border: 0;
+    width: 95%;
+    padding-top: 0.5vw;
+    padding-left: 0.3vw;
+}
+
+input[type="mobile"]::placeholder {
+    color: white;
+}
+
+input[type="mobile"] {
+    color: white;
+}
+
+/* email label */
+
+#email-label_div {
+    margin-left: 10%;
+    border: 1px solid white;
+    height: 2vw;
+    width: 53%;
+}
+
+#email-label {
+    background-color: rgb(23, 69, 168);
+    border: 0;
+    width: 95%;
+    padding-top: 0.5vw;
+    padding-left: 0.3vw; 
+}
+
+input[type="email"]::placeholder {
+    color: white;
+}
+
+input[type="email"] {
+    color: white;
+}
+
+/* message */
+
+#message-label_div {
+    border: 1px solid white;
+    height: 5vw;
+    width: 100%;
+}
+
+#message-label {
+    background-color: rgb(23, 69, 168);
+    border: 0;
+    padding-top: 0.5vw;
+    padding-left: 0.3vw; 
+    width: 98%;
+    white-space: pre-line;
+    resize: none;
+    height: 82%;
+}
+
+textarea[type="message"]::placeholder {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea[type="message"] {
+    color: white;
+}
+
+/* button */
+
+#send-label {
+    width: 26%;
+    height: 2vw;
+    background-color: rgb(255, 208, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0;
+    font-size: 0.95vw;
+}
+
+#send-label:hover {
+    background-color: orange;
+}
+
+/* no label */
+
+.contact_info {
+    margin-top: 4vw;
+    font-size: 0.93vw;
+}
+
+.contact_info p:nth-child(2) {
+    margin-top: 2.5vw;
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 1.1vw;
+}
+
+.after-bold1 {
+    margin-left: 2vw;
+}
+
+.after-bold2 {
+    margin-left: 3vw;
+}
+
+.after-bold3 {
+    margin-left: 3.5vw;
+}
+
+.mini {
+    width: 70%;
+    margin-top: 18%;
+    background-image: url(img/Layer_49_copy.png), url(img/Layer_50_copy.png), url(img/Layer_51_copy.png);
+    background-repeat: no-repeat;
+    background-position: 0 0.3vw, 2vw 0.3vw, 4vw 0.3vw;
+    height: 1.7vw;
+    border-top: 1.3px solid gray;
+}
+
+.conclusion_main {
+    background-color: black;
+    display: flex;
+    height: 100%;
+}
+
+.conclusion_info {
+    width: 26%;
+}
+
+.conclusion_info h3 {
+    color: white;
+    font-size: 4vw;
+    letter-spacing: -0.25vw;
+    padding-top: 3vw;
+    padding-left: 2vw;
+}
+
+.navigation__section4 {
+    width: 100%;
+    display: block;
+}
+
+.navigation__section4 ul {
+    list-style-type: none;
+}
+
+.navigation__section4 ul li {
+    margin-top: 1.7vw;
+    margin-top: 1.3vw;
+}
+
+.navigation__section4 ul li:nth-child(1) {
+    margin-top: 0;
+}
+
+.navigation__section4 ul li a {
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation__section4 ul li a:hover {
+    color: gray;
+}
+
+.mini1 {
+    width: 50%;
+    margin-top: 18%;
+    background-image: url(img/Layer_49_copy.png), url(img/Layer_50_copy.png), url(img/Layer_51_copy.png);
+    background-repeat: no-repeat;
+    background-position: 0 0.3vw, 2vw 0.3vw, 4vw 0.3vw;
+    height: 1.7vw;
+    border-top: 1.3px solid rgb(255, 208, 0);
+    margin-left: 2vw;
+    padding-bottom: 1vw;
+}
+
+.conclusion_picture {
+    background-image: url(img/Layer_47.png);
+    background-color: rgb(77, 77, 77);
+    background-blend-mode: multiply;
+    width: 74%;
+    color: white;
+    font-size: 4.6vw;
+    letter-spacing: -0.5vw;
+    line-height: 7vw;
+    padding-top: 20%;
+    padding-left: 3%;
+}
+
+.we_we_create_awesome_games {
+    color: rgb(255, 208, 0);
+}
+
+.navigation__section3 ul li a:hover {
+    color: gray;
+}
